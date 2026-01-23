@@ -1,6 +1,10 @@
 # CountryApp
 
+<<<<<<< HEAD
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
+=======
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.0.
+>>>>>>> 7e882a8e7e115f956b1115dad784466cb8e6c741
 
 ## Development server
 
