@@ -11,15 +11,10 @@
       "prefix": "app",
       "architect": {
         "build": {
-<<<<<<< HEAD
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/country-app",
             "index": "src/index.html",
-=======
-          "builder": "@angular/build:application",
-          "options": {
->>>>>>> 7e882a8e7e115f956b1115dad784466cb8e6c741
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -33,12 +28,8 @@
             ],
             "styles": [
               "src/styles.css"
-<<<<<<< HEAD
             ],
             "scripts": []
-=======
-            ]
->>>>>>> 7e882a8e7e115f956b1115dad784466cb8e6c741
           },
           "configurations": {
             "production": {
@@ -65,11 +56,7 @@
           "defaultConfiguration": "production"
         },
         "serve": {
-<<<<<<< HEAD
           "builder": "@angular-devkit/build-angular:dev-server",
-=======
-          "builder": "@angular/build:dev-server",
->>>>>>> 7e882a8e7e115f956b1115dad784466cb8e6c741
           "configurations": {
             "production": {
               "buildTarget": "country-app:build:production"
@@ -81,17 +68,10 @@
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
-<<<<<<< HEAD
           "builder": "@angular-devkit/build-angular:extract-i18n"
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
-=======
-          "builder": "@angular/build:extract-i18n"
-        },
-        "test": {
-          "builder": "@angular/build:karma",
->>>>>>> 7e882a8e7e115f956b1115dad784466cb8e6c741
           "options": {
             "polyfills": [
               "zone.js",
@@ -106,21 +86,11 @@
             ],
             "styles": [
               "src/styles.css"
-<<<<<<< HEAD
             ],
             "scripts": []
-=======
-            ]
->>>>>>> 7e882a8e7e115f956b1115dad784466cb8e6c741
           }
         }
       }
     }
-<<<<<<< HEAD
-  },
-  "cli": {
-    "analytics": "af2fae0f-137f-4afd-a2ab-0571e0cc9a7e"
-=======
->>>>>>> 7e882a8e7e115f956b1115dad784466cb8e6c741
   }
 }
